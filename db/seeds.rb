@@ -39,8 +39,8 @@ puts "5 blog posts created"
       qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed 
       quia non numquam eius modi tempora incidunt ut labore et dolore magnam 
       aliquam quaerat voluptatem.",
-    main_image: "http://placehold.it/600x400",
-    thumb_image: "http://placehod.it/350x200"
+    main_image: "http://via.placeholder.com/600x400",
+    thumb_image: "http://via.placeholder.com/350x200"
   )
 end
 
