@@ -66,3 +66,5 @@ gem 'devise', '~> 4.4', '>= 4.4.3'
 
 gem 'bootstrap', '~> 4.1.1'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+
+gem 'devcamp_view_tool', git: 'https://github.com/riofunk5311/devcamp_view_tool'
