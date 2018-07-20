@@ -1,4 +1,4 @@
-<div class="masthead mb-auto">
+<header class="masthead mb-auto">
   <div class="inner">
     <h3 class="masthead-brand">Ryota Sugawara</h3>
     <nav class="nav nav-masthead justify-content-center">
@@ -7,6 +7,7 @@
       <%= link_to "Contact", contact_path, class: 'nav-link' %>
       <%= link_to "Blog", blogs_path, class: 'nav-link' %>
       <%= link_to "Portfolio", portfolios_path, class: 'nav-link' %>
+      <%= login_helper 'nav-link' %>
     </nav>
   </div>
-</div>
+</header>
