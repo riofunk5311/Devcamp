@@ -148,8 +148,13 @@ body {
  .card-body {
     color: black;
     text-align: left;
+    float: left;
  }
 
  .auth-links a {
    color: black;
+ }
+
+ .register-text {
+   text-align: right;
  }
