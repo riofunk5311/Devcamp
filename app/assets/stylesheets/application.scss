@@ -41,7 +41,8 @@ body {
 }
 
 .cover-container {
-  max-width: 55em;
+  max-width:55em;
+  margin: auto;
 }
 
 
@@ -118,7 +119,7 @@ body {
      top: 0;
    }
    .mastfoot {
-     position: center;;
+     position: center;
      bottom: 0;
    }
    /* Start the vertical centering  */
@@ -151,10 +152,22 @@ body {
     float: left;
  }
 
- .auth-links a {
+ .card-block {
    color: black;
+ }
+
+ .auth-links {
+   a, a:hover {
+   color: black;
+   }
  }
 
  .register-text {
    text-align: right;
+ }
+
+ .login > .card {
+   width: 22rem;
+   margin: 0 auto;
+   float: none;
  }
