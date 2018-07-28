@@ -1,8 +1,8 @@
 @import "bootstrap";
+@import "font-awesome";
 
 /* stylelint-disable selector-list-comma-newline-after */
-
-.blog-header {
+blog-header {
   line-height: 1;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -10,10 +10,6 @@
 .blog-header-logo {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
   font-size: 2.25rem;
-}
-
-.blog-header-logo:hover {
-  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -132,6 +128,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
-.container {
-  width: auto;
-}
+/*
+ * Custom styles
+ */
+
+ .social-links li {
+   font-size: 1.5em;
+ }
+
