@@ -1,6 +1,15 @@
-<div class="nav-scroller py-1 mb-2">
-  <nav class="nav d-flex justify-content-center">
-    <%= nav_helper 'nav-link', 'span' %>
-    <%= login_helper 'nav-link' %>
-  </nav>
-</div>
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+    <%= link_to "Ryota Sugawara", root_path, class: 'navbar-brand' %>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+ 
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+     <ul class="navbar-nav ml-auto">
+       <%= nav_helper 'nav-link', 'span' %>
+       <%= login_helper 'nav-link' %>
+     </ul>
+    </div>
+  </div>
+</nav>
