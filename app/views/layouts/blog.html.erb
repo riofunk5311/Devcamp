@@ -22,18 +22,18 @@
 
     <div class="container">
       <div class="row justify-content-md-center">
-        <div class="col-sm">
+        <div class="col-sm-8">
           <%= yield %>
         </div>
 
-        <div class="col col-sm-4">
+        <div class="col-sm-4">
           <%= render 'shared/blog_sidebar' %>
         </div>
+
+        <%= render 'shared/blog_footer' %>
+
+        <%= alerts %>
       </div>
-      <%= render 'shared/blog_footer' %>
-
-      <%= alerts %>
-
     </div>
   </body>
 </html>
