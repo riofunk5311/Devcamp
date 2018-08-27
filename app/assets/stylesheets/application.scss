@@ -195,7 +195,7 @@ body {
 
  .app-card-container {
    color: black;
-   text-align: center;
+   text-align: left;
  }
 
  .app-card-container > .card {
@@ -204,7 +204,6 @@ body {
 
  .profile-img {
    border: 1px solid grey;
-   position: relative;
  }
 
  .app-card-container a {
@@ -214,4 +213,9 @@ body {
  .card-block {
    margin-top: 5px;
    margin-bottom: 5px;
+ }
+
+ .skill {
+   margin-top: 10px;
+   margin-bottom: 10px;
  }
